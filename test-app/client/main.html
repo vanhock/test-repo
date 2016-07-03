@@ -1,0 +1,37 @@
+<head>
+  <title>test-app</title>
+  <link href='https://fonts.googleapis.com/css?family=Exo+2:100' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="wrapper shadow">
+      <div class="content">
+          <h1>Ты сегодня покормил кота?</h1>
+          <ul class="cats-feed">
+            {{> feed1}}
+
+          </ul>
+      </div>
+  </div>
+
+</body>
+
+<template name="feed1">
+  <li class="cats-feed__item">
+      <section>
+        <div class="desc left-corner">
+            Сказочное заморское яство
+        </div>
+        <div class="container">
+            <h2>Нямушка
+                <span class="cats-feed_filler">с фуа-гра</span>
+            </h2>
+        </div>
+
+      </section>
+      <a href="#"></a>
+  </li>
+</template>
+
+
+

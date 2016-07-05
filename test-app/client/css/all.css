@@ -52,6 +52,9 @@ h2 {
   vertical-align: middle;
   text-align: left;
 }
+.content h1 {
+  margin: 47px 0 31px 0;
+}
 
 body {
   background: url('../images/bg.jpg') repeat;
@@ -71,7 +74,6 @@ body {
   width: 320px;
   margin: 0 40px;
   overflow: hidden;
-  padding: 41px 0 0;
 }
 .cats-feed__item .info {
   font-size: 13px;

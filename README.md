@@ -1,1 +1,1 @@
-# test-repo
+# test app for FunBox

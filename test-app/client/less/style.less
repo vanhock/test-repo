@@ -5,18 +5,36 @@ body
   background: url('../images/bg.jpg') repeat;
 }
 
+.disable-selection()
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
 .cats-feed
 {
   text-align: center;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
 
   &__item
   {
     display: inline-block;
     text-align: left;
     width: 320px;
-    margin: 0 80px 0 0;
+    margin: 0 40px;
     overflow: hidden;
     padding: 41px 0 0;
+
 
     .info
     {
@@ -25,11 +43,12 @@ body
       text-shadow: 0 1px 1px #000;
       display: block;
       text-align: center;
-      margin: 16px;
+      margin: 16px 0;
       a
       {
         color: @blue;
         border-bottom: 1px dashed;
+        .disable-selection;
         &:hover
         {
           cursor: pointer;
@@ -69,6 +88,8 @@ body
           font-size: 16px;
           color: @dark-grey;
           display: inline-block;
+
+          .disable-selection;
           &.active
           {
             display: none;
@@ -104,6 +125,8 @@ body
           font-size: 48px;
           margin: 0 0 0 44px;
           font-weight: bold;
+
+          .disable-selection;
         }
 
         &__filler
@@ -115,11 +138,14 @@ body
         &__options
         {
           margin: 16px 0 0 44px;
+          min-height: 48px;
           .option
           {
             font-size: 14px;
             color: @dark-grey;
             display: block;
+
+            .disable-selection;
           }
         }
 
@@ -131,6 +157,8 @@ body
             margin: 0;
             position: absolute;
             border-radius: 0 0 0 6px;
+
+            .disable-selection;
           }
         }
 
@@ -147,6 +175,8 @@ body
           height: 80px;
           border-radius: 100%;
           z-index: 1;
+
+          .disable-selection;
 
           span {
             font-size: 42px;
@@ -224,42 +254,8 @@ body
           }
         }
 
-        // Item selected: hover
 
-        &:hover
-        {
-          .container
-          {
-            border-bottom: 4px solid @light-pink;
-            border-right: 4px solid @light-pink;
-            border-left: 4px solid @light-pink;
-            .weight
-            {
-              background-color: @light-pink;
-            }
-          }
 
-          .left-corner
-          {
-            border-top: 4px solid @light-pink;
-            border-right: 4px solid @light-pink;
-
-            &__text
-            {
-              color: @light-pink;
-              display: none;
-              &.selected
-              {
-                display: inline-block;
-              }
-            }
-
-            &:before
-            {
-              background: url('/images/corner.png') no-repeat -135px 0;
-            }
-          }
-        }
       }
 
       .info
@@ -268,6 +264,43 @@ body
         &.selected
         {
           display: block;
+        }
+      }
+    }
+
+    // Item selected: pseudo hover
+
+    &.selected-hover
+    {
+      .container
+      {
+        border-bottom: 4px solid @light-pink;
+        border-right: 4px solid @light-pink;
+        border-left: 4px solid @light-pink;
+        .weight
+        {
+          background-color: @light-pink;
+        }
+      }
+
+      .left-corner
+      {
+        border-top: 4px solid @light-pink;
+        border-right: 4px solid @light-pink;
+
+        &__text
+        {
+          color: @light-pink;
+          display: none;
+          &.selected
+          {
+            display: inline-block;
+          }
+        }
+
+        &:before
+        {
+          background: url('/images/corner.png') no-repeat -135px 0;
         }
       }
     }

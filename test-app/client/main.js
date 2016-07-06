@@ -22,9 +22,19 @@ $(document).ready(function(){
       else
       {
         $(this).addClass('selected');
+        $(item).each(function() {
+          if($(this).hasClass('selected-hover'))
+          {
+            $(this).removeClass('selected-hover');
+            $(this).addClass('selected');
+          }
+          else
+          {
+            return false;
+          }
+        });
       }
     }
-
   });
 
   $(item).mouseout(function(){

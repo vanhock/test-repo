@@ -44,21 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.521576" vertical-offset="3190" max-vertical-offset="7310">
+            <state vertical-scroll-proportion="-77.38461" vertical-offset="1456" max-vertical-offset="7310">
               <caret line="204" column="67" selection-start-line="204" selection-start-column="67" selection-end-line="204" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.8783542" vertical-offset="121" max-vertical-offset="1054">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -102,6 +102,7 @@
                 <marker date="1467792912718" expanded="true" signature="4749:4820" placeholder="{...}" />
                 <marker date="1467792912718" expanded="true" signature="4872:4926" placeholder="{...}" />
                 <marker date="1467792912718" expanded="true" signature="8116:8123" placeholder="{...}" />
+                <marker date="1467792912718" expanded="true" signature="8156:8176" placeholder="{...}" />
                 <marker date="1467792912718" expanded="true" signature="8218:8239" placeholder="{...}" />
               </folding>
             </state>
@@ -121,8 +122,8 @@
         <option value="$PROJECT_DIR$/client/less/vars.less" />
         <option value="$PROJECT_DIR$/client/main.html" />
         <option value="$PROJECT_DIR$/client/less/base.less" />
-        <option value="$PROJECT_DIR$/client/main.js" />
         <option value="$PROJECT_DIR$/client/less/style.less" />
+        <option value="$PROJECT_DIR$/client/main.js" />
       </list>
     </option>
   </component>
@@ -305,7 +306,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -415,6 +416,7 @@
             <marker date="1467792912718" expanded="true" signature="4749:4820" placeholder="{...}" />
             <marker date="1467792912718" expanded="true" signature="4872:4926" placeholder="{...}" />
             <marker date="1467792912718" expanded="true" signature="8116:8123" placeholder="{...}" />
+            <marker date="1467792912718" expanded="true" signature="8156:8176" placeholder="{...}" />
             <marker date="1467792912718" expanded="true" signature="8218:8239" placeholder="{...}" />
           </folding>
         </state>
@@ -477,6 +479,7 @@
             <marker date="1467792912718" expanded="true" signature="4749:4820" placeholder="{...}" />
             <marker date="1467792912718" expanded="true" signature="4872:4926" placeholder="{...}" />
             <marker date="1467792912718" expanded="true" signature="8116:8123" placeholder="{...}" />
+            <marker date="1467792912718" expanded="true" signature="8156:8176" placeholder="{...}" />
             <marker date="1467792912718" expanded="true" signature="8218:8239" placeholder="{...}" />
           </folding>
         </state>
@@ -507,6 +510,7 @@
             <marker date="1467792912718" expanded="true" signature="4749:4820" placeholder="{...}" />
             <marker date="1467792912718" expanded="true" signature="4872:4926" placeholder="{...}" />
             <marker date="1467792912718" expanded="true" signature="8116:8123" placeholder="{...}" />
+            <marker date="1467792912718" expanded="true" signature="8156:8176" placeholder="{...}" />
             <marker date="1467792912718" expanded="true" signature="8218:8239" placeholder="{...}" />
           </folding>
         </state>
@@ -536,18 +540,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.js">
+    <entry file="file://$PROJECT_DIR$/client/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state vertical-scroll-proportion="-77.38461" vertical-offset="1456" max-vertical-offset="7310">
+          <caret line="204" column="67" selection-start-line="204" selection-start-column="67" selection-end-line="204" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/less/style.less">
+    <entry file="file://$PROJECT_DIR$/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.521576" vertical-offset="3190" max-vertical-offset="7310">
-          <caret line="204" column="67" selection-start-line="204" selection-start-column="67" selection-end-line="204" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.8783542" vertical-offset="121" max-vertical-offset="1054">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -8,15 +8,20 @@ $(document).ready(function(){
   $(item).click(function(){
     if(!$(this).hasClass('disabled'))
     {
-      if(!$(this).hasClass('selected'))
+      if($(this).hasClass('selected-hover'))
       {
-        $(this).addClass('selected');
+        $(this).off('mouseenter');
+        $(this).removeClass('selected-hover');
       }
-      else
+
+      else if($(this).hasClass('selected'))
       {
         $(this).off('mouseenter');
         $(this).removeClass('selected');
-        $(this).removeClass('selected-hover');
+      }
+      else
+      {
+        $(this).addClass('selected');
       }
     }
 
@@ -25,9 +30,11 @@ $(document).ready(function(){
   $(item).mouseout(function(){
     if(!$(this).hasClass('disabled'))
     {
-      if($(this).hasClass('selected'))
+      if($(this).hasClass('selected') || $(this).hasClass('selected-hover') )
       {
         $(this).addClass('selected-hover');
+        $(this).removeClass('selected');
+
       }
       else
       {

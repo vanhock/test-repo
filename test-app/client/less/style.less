@@ -70,7 +70,7 @@ body
     {
       .left-corner
       {
-        height: 41px;
+        height: 44px;
         background: @milk;
         width: 267px;
         margin-left: 45px;
@@ -96,8 +96,8 @@ body
         }
         &:before {
           content: '';
-          width: 45px;
-          height: 45px;
+          width: 47px;
+          height: 48px;
           background: url('/images/corner.png') no-repeat 0 0;
           display: inline-block;
           position: absolute;
@@ -118,7 +118,7 @@ body
         padding: 11px 0 0 0;
         position: relative;
         cursor: pointer;
-
+        margin: -2px 0 0 0;
         &__title
         {
           font-size: 48px;
@@ -185,13 +185,6 @@ body
           }
         }
 
-        &:hover {
-
-        }
-
-        &__filler {
-
-        }
       }
 
       // Item conditions
@@ -206,7 +199,12 @@ body
           border-right: 4px solid @light-blue;
           &:before
           {
-            background: url('/images/corner.png') no-repeat -45px 0;
+            background: url('/images/corner.png') no-repeat -47px 0;
+            @media screen\0
+              {
+                background: url('/images/corner.png') no-repeat -48px 0;
+              }
+            }
           }
         }
 
@@ -249,7 +247,7 @@ body
           border-right: 4px solid @pink;
           &:before
           {
-            background: url('/images/corner.png') no-repeat -90px 0;
+            background: url('/images/corner.png') no-repeat -94px 0;
           }
         }
 
@@ -299,7 +297,54 @@ body
 
         &:before
         {
-          background: url('/images/corner.png') no-repeat -135px 0;
+          background: url('/images/corner.png') no-repeat -141px 0;
+        }
+      }
+
+      .info
+      {
+        display: none;
+        &.selected
+        {
+          display: block;
+        }
+      }
+
+      &:hover
+      {
+        section
+        {
+          .container
+          {
+            border-bottom: 4px solid @light-pink;
+            border-right: 4px solid @light-pink;
+            border-left: 4px solid @light-pink;
+            .weight
+            {
+              background-color: @light-pink;
+            }
+          }
+
+          .left-corner
+          {
+            border-top: 4px solid @light-pink;
+            border-right: 4px solid @light-pink;
+
+            &__text
+            {
+              color: @light-pink;
+              display: none;
+              &.selected
+              {
+                display: inline-block;
+              }
+            }
+
+            &:before
+            {
+              background: url('/images/corner.png') no-repeat -141px 0;
+            }
+          }
         }
       }
     }
@@ -355,7 +400,7 @@ body
 
           &:before
           {
-            background: url('/images/corner.png') no-repeat -180px 0;
+            background: url('/images/corner.png') no-repeat -188px 0;
           }
         }
       }
@@ -369,6 +414,11 @@ body
         }
       }
     }
+  }
 
+  @media screen and (max-width: 640px)
+  {
+    width: 400px;
+    margin: 0 auto;
   }
 }
